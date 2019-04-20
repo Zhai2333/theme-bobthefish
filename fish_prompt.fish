@@ -334,6 +334,8 @@ function __bobthefish_finish_segments -S -d 'Close open prompt segments'
     end
   else if [ "$theme_newline_cursor" = 'clean' ]
     echo -ens "\n"
+  else if [ "$theme_newline_cursor" = 'linked' ]
+    echo -ns "?"
   end
 
   set_color normal
