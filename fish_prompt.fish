@@ -326,7 +326,11 @@ function __bobthefish_finish_segments -S -d 'Close open prompt segments'
     if [ "$theme_powerline_fonts" = "no" ]
       echo -ns '> '
     else
-      echo -ns "$right_arrow_glyph "
+      if [ "$theme_newline_prompt" ]
+        echo -ns "$theme_newline_prompt "
+      else
+        echo -ns "$right_arrow_glyph "
+      end
     end
   else if [ "$theme_newline_cursor" = 'clean' ]
     echo -ens "\n"
