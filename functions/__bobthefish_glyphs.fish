@@ -26,6 +26,9 @@ function __bobthefish_glyphs -S -d 'Define glyphs used by bobthefish'
   # Desk glyphs
   set -x desk_glyph              \u25F2
 
+  # Kubernetes glyphs
+  set -x k8s_glyph               \u2388 # '⎈'
+
   # Vagrant glyphs
   set -x vagrant_running_glyph   \u2191 # ↑ 'running'
   set -x vagrant_poweroff_glyph  \u2193 # ↓ 'poweroff'
@@ -45,8 +48,8 @@ function __bobthefish_glyphs -S -d 'Define glyphs used by bobthefish'
   set -x git_minus_glyph      '-'
   set -x git_plus_minus_glyph '±'
 
-  # Disable Powerline fonts
-  if [ "$theme_powerline_fonts" = "no" ]
+  # Disable Powerline fonts (unless we're using nerd fonts instead)
+  if [ "$theme_powerline_fonts" = "no" -a "$theme_nerd_fonts" != "yes" ]
     set branch_glyph            \u2387
     set right_black_arrow_glyph ''
     set right_arrow_glyph       ''
@@ -61,8 +64,8 @@ function __bobthefish_glyphs -S -d 'Define glyphs used by bobthefish'
     set tag_glyph        \uF918
 
     set virtualenv_glyph \uF81F ' '
-    set ruby_glyph       \uE791 ' '
     set go_glyph         \uFCD1 ' '
+    set node_glyph       \uf898 ' '
 
     set vagrant_running_glyph  \uF55C # ↑ 'running'
     set vagrant_poweroff_glyph \uF544 # ↓ 'poweroff'
