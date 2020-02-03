@@ -15,6 +15,7 @@ I Recommend using [Fisher](https://github.com/jorgebucaran/fisher) to install th
 `bobthefish` is a Powerline-style, Git-aware [fish][fish] theme optimized for awesome.
 
 [![Oh My Fish](https://img.shields.io/badge/Framework-Oh_My_Fish-blue.svg?style=flat)](https://github.com/oh-my-fish/oh-my-fish) [![MIT License](https://img.shields.io/github/license/oh-my-fish/theme-bobthefish.svg?style=flat)](/LICENSE.md)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FZhai2333%2Ftheme-bobthefish.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FZhai2333%2Ftheme-bobthefish?ref=badge_shield)
 
 ![bobthefish][screencast]
 
@@ -241,3 +242,7 @@ end
 [base16-light]:    https://cloud.githubusercontent.com/assets/53660/16141579/02f7245e-3412-11e6-97c6-5f3cecffb73c.png "base16-light"
 [zenburn]:         https://cloud.githubusercontent.com/assets/53660/16141580/06229dd4-3412-11e6-84aa-a48de127b6da.png "zenburn"
 [terminal-dark]:   https://cloud.githubusercontent.com/assets/53660/16141583/0b3e8eea-3412-11e6-8068-617c5371f6ea.png "terminal-dark"
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FZhai2333%2Ftheme-bobthefish.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FZhai2333%2Ftheme-bobthefish?ref=badge_large)
