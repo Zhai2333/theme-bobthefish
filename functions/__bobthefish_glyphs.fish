@@ -61,35 +61,39 @@ function __bobthefish_glyphs -S -d 'Define glyphs used by bobthefish'
 
   # Use prettier Nerd Fonts glyphs
   if [ "$theme_nerd_fonts" = "yes" ]
-    set private_glyph    \uF023 ' ' # nf-fa-lock
+    set nonzero_exit_glyph "\uFAD5$last_status " # nf-mdi-alert_circle_outline
+    set superuser_glyph    '\uF922' # nf-mdi-pound
+    set bg_job_glyph       '\uF53E' # nf-mdi-arrange_send_backward
+    set nonzero_exit_glyph "\uFAD5$last_status " # nf-mdi-alert_circle_outline
 
-    set branch_glyph     \uF418
-    set detached_glyph   \uF417
-    set tag_glyph        \uF412
+    set private_glyph    \uF840 ' ' # nf-mdi-lock_outline
+
+    set branch_glyph     \uFB2B # nf-mdi-source_branch
+    set detached_glyph   \uFC16 # nf-mdi-source_commit
+    set tag_glyph        \uF9FB # nf-mdi-tag_outline
 
     set nix_glyph        \uF313 ' ' # nf-linux-nixos
-    set virtualenv_glyph \uE73C ' '
+    set virtualenv_glyph \uF81F ' '
     set ruby_glyph       \uE791 ' '
-    set go_glyph         \uE626 ' '
-    set node_glyph       \uE718 ' '
+    set go_glyph         \uFCD1 ' '
+    set node_glyph       \uF898 ' '
 
-    set vagrant_running_glyph  \uF431 # ↑ 'running'
-    set vagrant_poweroff_glyph \uF433 # ↓ 'poweroff'
-    set vagrant_aborted_glyph  \uF468 # ✕ 'aborted'
-    set vagrant_unknown_glyph  \uF421 # strange cases
+    set vagrant_running_glyph  \uF55C # ↑ 'running'
+    set vagrant_poweroff_glyph \uF544 # ↓ 'poweroff'
+    set vagrant_aborted_glyph  \uF655 # ✕ 'aborted'
+    set vagrant_unknown_glyph  \uF521 # strange cases
 
-    set git_dirty_glyph      \uF448 '' # nf-oct-pencil
-    set git_staged_glyph     \uF0C7 '' # nf-fa-save
-    set git_stashed_glyph    \uF0C6 '' # nf-fa-paperclip
-    set git_untracked_glyph  \uF128 '' # nf-fa-question
-    # set git_untracked_glyph  \uF141 '' # nf-fa-ellipsis_h
+    set git_dirty_glyph      \uF8EA '' # nf-mdi-pencil
+    set git_staged_glyph     \uFD16 '' # nf-mdi-content_save_outline
+    set git_stashed_glyph    \uF8D2 '' # nf-mdi-package_down
+    set git_untracked_glyph  \uF7D6 '' # nf-mdi-help_circle
 
-    set git_ahead_glyph      \uF47B # nf-oct-chevron_up
-    set git_behind_glyph     \uF47C # nf-oct-chevron_down
+    set git_ahead_glyph      \uF642 # nf-mdi-chevron_up
+    set git_behind_glyph     \uF63F # nf-mdi-chevron_down
 
-    set git_plus_glyph       \uF0DE # fa-sort-asc
-    set git_minus_glyph      \uF0DD # fa-sort-desc
-    set git_plus_minus_glyph \uF0DC # fa-sort
+    set git_plus_glyph       \uF85F # nf-mdi-menu_up
+    set git_minus_glyph      \uF85C # nf-mdi-menu_down
+    set git_plus_minus_glyph \uFA4E # nf-mdi-unfold_more_horizontal
   end
 
   # Avoid ambiguous glyphs
