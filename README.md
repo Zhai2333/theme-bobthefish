@@ -1,4 +1,10 @@
-# bobthefish
+# bobthefish (mochaaP Fork)
+
+This is a fork of [oh-my-fish/theme-bobthefish](https://github.com/oh-my-fish/theme-bobthefish/).
+Add Material Design icons and Proxy Indicator.
+Install [Nerd Fonts][nerd-fonts] first and then add `set -g theme_nerd_fonts yes` into your config file.
+
+---
 
 `bobthefish` is a Powerline-style, Git-aware [fish][btf-fish] theme optimized for awesome.
 
