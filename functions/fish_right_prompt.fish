@@ -78,5 +78,8 @@ function fish_right_prompt -d 'bobthefish is all about the right prompt'
 
     __bobthefish_cmd_duration
     __bobthefish_timestamp
+    if [ $ALL_PROXY ]
+        echo -nes ' ' \uF805
+    end
     set_color normal
 end
